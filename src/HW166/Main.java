@@ -14,7 +14,7 @@ public class Main {
         for(int i = 0; i < smallWord.length(); i++){
             newString = newString + one.charAt(i) + two.charAt(i);
         }
-        newString = newString + bigWord.substring(bigWord.length()-(bigWord.length() - smallWord.length()));
+        newString = newString + bigWord.substring(bigWord.length() - (bigWord.length() - smallWord.length()));
 
 
     return newString;
